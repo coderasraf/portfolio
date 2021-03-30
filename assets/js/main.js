@@ -41,14 +41,14 @@ document.addEventListener('DOMContentLoaded', function(){
       filter:selector,
     })
   })
-    $('.right-carousel-area').owlCarousel({
-      items:1,
-      loop:true,
-      nav:false,
-      dots:false,
-      navText:false,
-      autoplay:true,
-    });
+    // $('.right-carousel-area').owlCarousel({
+    //   items:1,
+    //   loop:true,
+    //   nav:false,
+    //   dots:false,
+    //   navText:false,
+    //   autoplay:true,
+    // });
     $('.testimonial-carousel ').owlCarousel({
       items:2,
       loop:true,

@@ -314,6 +314,7 @@ animation-element5
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
     gap: 20px;
+    align-items: flex-start;
 }
 
 .single-project-box-bg {
@@ -331,13 +332,22 @@ animation-element5
   cursor:pointer;
 }
 .case-bg-1{
-  background-image: url('../img/portfolio-2.png');
+  background-image: url('../img/lion.png');
 }
 .case-bg-2{
-  background-image: url('../img/chrome_270cSqffgO.png');
+  background-image: url('../img/gordon.png');
 }
 .case-bg-3{
-  background-image: url('../img/directry.png');
+  background-image: url('../img/lines.png');
+}
+.case-bg-4{
+  background-image: url('../img/irelandeye.png');
+}
+.case-bg-5{
+  background-image: url('../img/tiffin.png');
+}
+.case-bg-6{
+  background-image: url('../img/lifepass.png');
 }
 .casestudy {
     padding: 80px 0;
@@ -375,7 +385,7 @@ animation-element5
 .project-title h4 {
     font-size: 20px;
     font-weight: normal;
-    text-align: center;
+    text-align: left;
 }
 
 .bottom-link {
@@ -1254,4 +1264,24 @@ a.btns.case-btn:hover {
     margin: 0 9px;
     margin-bottom: 33px;
 }
+}
+
+.single-carousel-area img {
+    height: 350px;
+    border-radius: 50px 0;
+    margin-left: 64px;
+    box-shadow: inset 1px 0px 20px 10px #0daae652;
+    border: none;
+}
+
+.technology-content {grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));}
+.technology-content .single-box {
+    border-top: 2px solid #dddddd9c;
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: none;
+}
+
+.technology-content .title-overview h4 {
+    font-weight: normal;
 }
