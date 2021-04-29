@@ -1,6 +1,8 @@
 const menu = document.querySelector('.menu-item');
 const bars = document.querySelector('.bars');
 const closeBtn = document.querySelector('.close-btn');
+const items = document.querySelectorAll('.menu-item li');
+
 window.addEventListener('DOMContentLoaded',function(){
   bars.addEventListener('click', function(){
     menu.classList.toggle('active');
@@ -9,6 +11,11 @@ window.addEventListener('DOMContentLoaded',function(){
     menu.classList.remove('active');
   })
 });
+items.forEach(function(item){
+  item.onclick = function(e){
+    console.log(e.target);
+  }
+})
 // fixed-menu-js code here
 const headerTop = document.querySelector('.header-top');
 document.addEventListener('DOMContentLoaded', function(){
