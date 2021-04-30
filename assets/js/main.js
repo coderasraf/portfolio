@@ -3,6 +3,7 @@ const bars = document.querySelector('.bars');
 const closeBtn = document.querySelector('.close-btn');
 const items = document.querySelectorAll('.menu-item li');
 
+
 window.addEventListener('DOMContentLoaded',function(){
   bars.addEventListener('click', function(){
     menu.classList.toggle('active');
@@ -13,7 +14,7 @@ window.addEventListener('DOMContentLoaded',function(){
 });
 items.forEach(function(item){
   item.onclick = function(e){
-    console.log(e.target);
+    menu.classList.remove('active');
   }
 })
 // fixed-menu-js code here
@@ -105,3 +106,6 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     })
   });
+
+
+  

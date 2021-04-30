@@ -1154,6 +1154,37 @@ a.btns.case-btn:hover {
     border: none;
     height: auto;
 }
+.button-social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.button-social-wrapper input {
+    background: linear-gradient(45deg, #287dcc, #2ca7e0);
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 10px 60px;
+    border-radius: 25px 0 25px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 1px 7px 8px 4px #ddd;
+}
+
+.or-text {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+}
+/* particle.js */
+
 /*===== Start fo media Queries ======*/
 @media(max-width: 1200px){
   .top-info h2{
