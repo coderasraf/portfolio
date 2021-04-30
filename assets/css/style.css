@@ -800,12 +800,12 @@ ul.find-me-menu-item {
 }
 
 .find-me-area-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #2ca7e0;
-    padding: 20px;
+    padding: 40px 60px;
+    box-shadow: 0px 4px 12px 4px #ddd;
+}
+.find-me-title h1 {
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .find-me-title {
@@ -1263,6 +1263,10 @@ a.btns.case-btn:hover {
     font-size: 13px;
     margin: 0 9px;
     margin-bottom: 33px;
+}
+.find-me-area-inner {
+    padding: 30px 20px;
+    box-shadow: 0px 4px 12px 4px #ddd;
 }
 }
 
