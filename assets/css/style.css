@@ -1183,6 +1183,18 @@ a.btns.case-btn:hover {
     color: #000;
     text-transform: capitalize;
 }
+#fs-frm-inputs input, #fs-frm-inputs textarea {
+    border-radius: 0px;
+    padding: 23px 20px;
+    resize: none;
+    box-shadow: 0 0 10px #ddd;
+    border: 2px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+#fs-frm-inputs input:focus, #fs-frm-inputs textarea:focus {
+    border-color: #287dcc;
+}
 /* particle.js */
 
 /*===== Start fo media Queries ======*/
