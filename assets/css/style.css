@@ -151,7 +151,7 @@ animation-element5
 .header-top {
   background: linear-gradient(to right, #9926f0, #d122e3);
   padding: 25px 0;
-  box-shadow: var(--shadow);
+  border-bottom: 2px solid #fff;
 }
 .close-btn{
   position: absolute;
@@ -1341,4 +1341,5 @@ a.btns.case-btn:hover {
 .technology-content .title-overview h4 {
     font-weight: normal;
 }
+
 
