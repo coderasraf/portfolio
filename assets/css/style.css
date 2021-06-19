@@ -151,7 +151,7 @@ animation-element5
 .header-top {
   background: linear-gradient(to right, #9926f0, #d122e3);
   padding: 25px 0;
-  border-bottom: 2px solid #fff;
+  box-shadow: var(--shadow);
 }
 .close-btn{
   position: absolute;
