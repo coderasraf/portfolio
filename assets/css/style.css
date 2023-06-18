@@ -1344,6 +1344,9 @@ a.btns.case-btn:hover {
 .technology-content .title-overview h4 {
     font-weight: normal;
 }
+.welcome-button {
+    margin-bottom: 0;
+}
 @media(max-width:768px){
   .technology-content {
     grid-template-columns: repeat(auto-fill,minmax(150px, 1fr));
@@ -1356,5 +1359,14 @@ a.btns.case-btn:hover {
     width: 80px;
     object-fit: contain;
     height: 80px;
+}
+  .top-info p {
+    line-height: 28px;
+}
+  .get-touch-btn {
+    padding: 10px 38px !important;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
 }
