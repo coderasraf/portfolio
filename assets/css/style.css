@@ -1344,5 +1344,17 @@ a.btns.case-btn:hover {
 .technology-content .title-overview h4 {
     font-weight: normal;
 }
-
-
+@media(max-width:768px){
+  .technology-content {
+    grid-template-columns: repeat(auto-fill,minmax(150px, 1fr));
+}
+  .single-box{
+    padding:10px;
+  }
+  .icon-area img {
+    margin-bottom: 23px;
+    width: 80px;
+    object-fit: contain;
+    height: 80px;
+}
+}
